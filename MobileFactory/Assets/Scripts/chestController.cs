@@ -22,6 +22,7 @@ public class chestController : MonoBehaviour {
         {
             Destroy(collision.gameObject);
             containItems++;
+            Debug.Log(containItems);
         }
     }
 }
